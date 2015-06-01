@@ -1,0 +1,94 @@
+/* CSS Document */
+
+<STYLE type=text/css>FORM {
+	WIDTH: 1000px
+}
+.field {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.5em; OVERFLOW: auto; PADDING-TOP: 0px
+}
+LABEL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 180px; PADDING-TOP: 0.2em
+}
+.checkbox P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 180px; PADDING-TOP: 0.2em
+}
+.radio P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 180px; PADDING-TOP: 0.2em
+}
+INPUT {
+	FLOAT: left; WIDTH: 160px
+}
+SELECT {
+	FLOAT: left; WIDTH: 160px
+}
+SELECT {
+	WIDTH: 163px
+}
+.error .messages {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.error .messages LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.error .messages LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1.5em; PADDING-BOTTOM: 0px; COLOR: #b92d23; PADDING-TOP: 0.1em
+}
+.error INPUT {
+	COLOR: #b92d23
+}
+.success {
+	BACKGROUND: url(../images/success_icon.png) no-repeat 350px 0.2em
+}
+.error {
+	BACKGROUND: url(../images/error_icon.png) no-repeat 350px 0.2em
+}
+FIELDSET {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.checkbox P {
+	FLOAT: left
+}
+.checkbox .inputs {
+	FLOAT: left
+}
+.checkbox P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em; PADDING-TOP: 0px
+}
+.checkbox .inputs {
+	WIDTH: 165px
+}
+.checkbox .inputs {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.checkbox .inputs LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.checkbox .inputs LI {
+	MARGIN: 0px 0px 0.3em
+}
+.checkbox LI LABEL {
+	DISPLAY: inline; FLOAT: none; WIDTH: auto
+}
+.checkbox LI INPUT {
+	DISPLAY: inline; FLOAT: none; WIDTH: auto
+}
+.button INPUT {
+	WIDTH: auto
+}
+.validate_any {
+	POSITION: relative
+}
+.error.validate_any {
+	BACKGROUND-POSITION: 0px 0.2em; PADDING-TOP: 2em
+}
+#terms_block {
+	BACKGROUND-POSITION: 205px 0.2em
+}
+#terms_block .messages LI {
+	PADDING-TOP: 0.2em
+}
+.validate_any .messages {
+	LEFT: 0px; POSITION: absolute; TOP: 0.1em
+}
+</STYLE>
+

@@ -1,0 +1,565 @@
+/*a { color:#797373; font-size:11px !important; font-weight:bold !important; text-decoration:none !important}*/
+a:hover {text-decoration:underline !important}
+#left_panel{min-width:225px !important}
+#showinfo{ }
+body
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #F2F2F2;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.leftpnlSearch
+{
+	height: 300px;
+	width: 189px;
+	overflow: -moz-scrollbars-vertical;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.loginboxcss
+{
+	background-color: #F9F9F9;
+	border: 1px solid #E5E5E5;
+}
+#progressid
+{
+	padding-top: 20px;
+}
+.bottomcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B3B4B4;
+	background-color: #F2F2F2;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #DCDBD9;
+	text-decoration: none;
+}
+.ErrorText
+{
+	color: #FF0000;
+	font-family: Verdana, Arial, "Courier New" , "Times New Roman";
+	font-size: 11px;
+}
+.NormalText
+{
+	color: #000000;
+	font-family: Verdana, Arial, "Courier New" , "Times New Roman";
+	font-size: 11px;
+	padding-left: 10px;
+	height: 22px;
+	padding-top: 8px;
+}
+.textboxcss
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #EEEEEE;
+	border-right-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #EEEEEE;
+	padding: 2px;
+}
+.textboxcss1
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #EEEEEE;
+	border-right-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #EEEEEE;
+	padding: 2px;
+	width: 350px;
+}
+.buttoncss
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5A5858;
+	background-color: #DFDFDF;
+	border: 1px solid #B7B7B7;
+	font-weight: bold;
+	padding: 3px;
+	cursor:pointer;
+}
+.bluebutton
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #A8C4DE;
+	border: 1px solid #B7B7B7;
+	font-weight: bold;
+	padding: 3px;
+	cursor:pointer;
+}
+.redbutton
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #E77A79;
+	border: 1px solid #B7B7B7;
+	font-weight: bold;
+	padding: 3px;
+	cursor:pointer;
+}
+.bottomlinkcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3B4B4;
+	background-color: transparent;
+	text-decoration: none;
+}
+.bottomlinkcss:hover
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #B3B4B4;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.middlepartcss
+{
+	background: url(../img/middlepartbg.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.loginiconbg
+{
+	background: url(../images/login_icon.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 104px;
+}
+.verdana18orangecss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #B44646;
+	font-weight: bold;
+	background-color: transparent;
+}
+.loginformcss
+{
+	background-color: #F2F2F2;
+	border: 1px solid #E8E8E8;
+}
+.loggedpagerighttoptext
+{
+	font-family: arial,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	background-color: transparent;
+	padding-right: 10px;
+	font-weight:bold;
+}
+.whitelinkcss
+{
+	font-family: arial,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	background-color: transparent;
+	text-decoration: underline;
+	padding-left: 10px;
+}
+.whitelinkcss:hover
+{
+	font-family: arial,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: none;
+}
+.usertextcss
+{
+	font-family: arial,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFFF99;
+	text-decoration: none;
+}
+.leftpanelheadercss
+{
+	font-family: arial,Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+	background: url(../images/leftpanel_headerbg.gif);
+	background-repeat: repeat-X;
+	padding-left: 10px;
+	background-color: transparent;
+	height: 23px;
+}
+.leftpanelheadertextcss
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color:#666666;
+	font-weight:normal;
+		
+}
+.leftpanelheadercss a:hover, .leftpanelheadercss a:visited
+{
+	color: White;
+	text-decoration: none;
+}
+.leftpanelheadercss a, .leftpanelheadercss a:link
+{
+	color: White;
+	text-decoration: none;
+}
+.innerTxtCenterBlue
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: Blue;
+	font-size: 12px;
+	text-decoration: none;
+}
+.leftsubtxt
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: gray;
+	font-size: 12px;
+	text-decoration: none;
+}
+.BackToTop
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: red;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.leftpanelmiddleline
+{
+	height: 1px;
+	background-color: #E5E5E5;
+}
+
+.VideoOptions
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	background-color: transparent;
+}
+.TRHeight
+{
+	height: 2px;
+}
+.VideoOptionsUL
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #707070;
+	text-decoration: underline;
+	background-color: transparent;
+}
+.titlered
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: red;
+	text-decoration: none;
+	background-color: transparent;
+}
+.leftpanellinkcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#797373  !important; font-size:11px !important; font-weight:bold !important; text-decoration:none !important
+}
+.leftpanellinkcss a:hover
+{
+	text-decoration:underline !important
+}
+.leftpanellinkcss a:visited
+{
+	color:#999  !important;
+}
+.leftLabellinkcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	text-decoration: none;
+	background-color: transparent;
+}
+.leftpanellinkcss:hover
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #943A3A;
+	text-decoration: none;
+	background-color: transparent;
+}
+.paddingleft25
+{
+	padding-left: 25px;
+}
+
+.paddingleft12
+{
+	padding-left: 12px;
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.paddingright15
+{
+	padding-right: 15px;
+}
+.paddingright12
+{
+	padding-right: 12px;
+}
+.paddingleft10
+{
+	padding-left: 10px;
+}
+.paddingright10
+{
+	padding-right: 10px;
+}
+.paddingbottom10
+{
+	padding-bottom: 10px;
+}
+.paddingtop10
+{
+	padding-top: 10px;
+}
+/*padding 5*/
+.paddingleft5
+{
+	padding-left: 5px;
+}
+.paddingright5
+{
+	padding-right: 5px;
+}
+.paddingbottom5
+{
+	padding-bottom: 5px;
+}
+.paddingtop5
+{
+	padding-top: 5px;
+}
+.rightpanelheadingcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #B44646;
+	background-color: #EEEEEE;
+	background-image: url(../images/rightpanelheader_arrow.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: left;
+	border: 1px solid #E5E5E5;
+	padding: 2px 0 2px 22px;
+}
+.table_heading
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #B44646;
+	background-color: #EEEEEE;	
+	border: 1px solid #E5E5E5;	
+}
+
+.table_heading th
+{
+	height:25px;
+	padding-left:5px;
+}
+
+.formheadingbg
+{
+	background: url(../images/form_headingbg.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+	height: 22px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #23799B;
+	border-right-color: #E5E5E5;
+	border-bottom-color: #E5E5E5;
+	border-left-color: #E5E5E5;
+	padding-left: 10px;
+}
+A.addlink
+{
+	text-decoration: none;
+	color: #707070;
+}
+A.addlink:hover
+{
+	text-decoration: underline;
+	color: #23799B;
+}
+.TDClass
+{
+	padding-top: 3px;
+	padding-left: 5px;
+	font-family: Verdana, Arial,Courier New, Times New Roman;
+	font-size: 11px;
+	border-bottom: 0px none #EFEBE1;
+	border-top-color: #EFEBE1;
+	border-right-color: #EFEBE1;
+	border-left-color: #EFEBE1;
+}
+A.pagelink
+{
+	text-decoration: underline;
+	color: White;
+}
+A.pagelink:hover
+{
+	text-decoration: none;
+	color: White;
+}
+.linkcopyright
+{
+	text-decoration: underline;
+	color: #707070;
+}
+
+.panelheadingcss
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #B44646;
+	background-color: #EEEEEE;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position: left;
+	border: 1px solid #E5E5E5;
+	padding: 2px 0 2px 22px;
+}
+
+.ContentText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-top-color: #EEEEEE;
+	border-right-color: #D6D6D6;
+	border-bottom-color: #D6D6D6;
+	border-left-color: #EEEEEE;
+	padding: 2px;
+}
+.gridpager
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	background-color: transparent;
+	text-decoration: underline;
+}
+.gridpager a:hover
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+.gridpager a, .gridpager a:link
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #707070;
+	background-color: transparent;
+	text-decoration: underline;
+}
+.toppartbg
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: left;
+	background: url(../images/topbg.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	height: 41px;
+}
+.grey
+{	
+	font-weight: bold;
+	color: Gray;
+	font-size: 12px;
+}
+.red
+{
+	font-weight: bold;
+	color: Red;
+	font-size: 12px;
+}
+.green
+{
+	font-weight: bold;
+	color: Green;
+	font-size: 12px;
+}
+.orange
+{
+	font-weight: bold;
+	color: Orange;
+	font-size: 12px;
+}
+.blue
+{
+	font-weight: bold;
+	color: Blue;
+	font-size: 12px;
+}
+.registrationtb
+{border:solid 1px #CCCCCC;
+background-color:#FFFFFF;}
+.registertext
+{font-family:verdana;
+color:#666666;
+font-size:12px;}

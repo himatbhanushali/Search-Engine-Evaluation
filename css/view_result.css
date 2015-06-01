@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body
+{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	
+}
+.th {background:url(../img/adminform_back.png) repeat;}
+.th td {padding-left:5px;}
+.title { background-color:#090; color:#FFF}
+/*tr:hover{background-color:#3CF; border:1px dashed;}*/
+tr{background-color:#CCC; border:1px dashed;}
